@@ -22,7 +22,7 @@ public class EchoClient
 			}
 			while ( !line.trim().equals("bye") );
 		}
-		Catch (Exception err)
+		catch (Exception err)
 		{
 			System.err.println(err);
 		}
