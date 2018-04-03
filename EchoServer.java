@@ -30,6 +30,7 @@ public class EchoServer
 					line = r.readLine();
 					if ( line != null )
 						w.println("Got: "+ line);
+						System.out.println(line);
 				}
 				while ( !line.trim().equals("bye") );
 				client.close();
